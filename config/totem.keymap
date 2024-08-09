@@ -153,7 +153,7 @@
         &kp EXCL     &kp AT  &kp HASH  &kp DLLR       &kp PRCNT               &kp CARET     &kp AMPS      &kp ASTERISK  &kp SQT     &kp DQT
         &kp RA(A)    &trans  &trans    &trans         &trans                  &kp C_MUTE    &trans        &trans        &trans      &kp RA(O)
 &trans  &kp RA(F18)  &trans  &trans    &kp C_BRI_DEC  &kp C_BRIGHTNESS_INC    &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PREV    &kp C_NEXT  &kp BSLH   &trans
-                             &trans    &gif           &mo ADJ                 &trans        &kp C_PP      &trans
+                             &trans    &trans         &mo ADJ                 &trans        &kp C_PP      &trans
             >;
         };
 
