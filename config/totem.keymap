@@ -98,10 +98,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                       &kp Q                    &kp W            &kp E                       &kp R             &kp T        &kp Y    &kp U              &kp I              &kp O             &kp P
-                       &mt_left LEFT_COMMAND A  &mt_left LALT S  &mt_left LCTRL D            &mt_left LSHFT F  &kp G        &kp H    &mt_right RSHFT J  &mt_right RCTRL K  &mt_right RALT L  &mt_right RGUI SEMICOLON
-&mt_left LCTRL ESCAPE  &kp Z                    &kp X            &kp C                       &kp V             &kp B        &kp N    &kp M              &kp COMMA          &kp DOT           &kp FSLH                  &lt 6 SQT
-                                                                 &mt LEFT_COMMAND BACKSPACE  &lt NAV TAB       &kp SPACE    &kp RET  &lt SYM ESC        &kp BSPC
+                  &kp Q                    &kp W            &kp E                       &kp R             &kp T        &kp Y    &kp U              &kp I              &kp O             &kp P
+                  &mt_left LEFT_COMMAND A  &mt_left LALT S  &mt_left LCTRL D            &mt_left LSHFT F  &kp G        &kp H    &mt_right RSHFT J  &mt_right RCTRL K  &mt_right RALT L  &mt_right RGUI SEMICOLON
+&mt LCTRL ESCAPE  &kp Z                    &kp X            &kp C                       &kp V             &kp B        &kp N    &kp M              &kp COMMA          &kp DOT           &kp FSLH                  &lt 6 SQT
+                                                            &mt LEFT_COMMAND BACKSPACE  &lt NAV TAB       &kp SPACE    &kp RET  &lt SYM ESC        &kp BSPC
             >;
         };
 
