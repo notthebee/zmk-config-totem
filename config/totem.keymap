@@ -161,7 +161,7 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-           &kp GRAVE  &trans          &kp UP          &kp EQUAL        &kp LBRC    &kp RBRC  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp EQUAL
+           &kp GRAVE  &kp UNDER       &kp UP          &kp PLUS         &kp LBRC    &kp RBRC  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp EQUAL
            &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LBKT    &kp RBKT  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp MINUS
 &kp TILDE  &trans     &kp PG_UP       &kp CAPS        &kp PG_DN        &kp LPAR    &kp RPAR  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_MULTIPLY  &trans
                                       &trans          &trans           &trans      &mo ADJ   &kp KP_N0  &trans
