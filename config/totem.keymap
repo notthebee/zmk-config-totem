@@ -34,15 +34,10 @@
         compatible = "zmk,combos";
 
         combo_esc {
-            timeout-ms = <50>;
+            timeout-ms = <60>;
             key-positions = <0 1>;
-            bindings = <&kp ESC>;
-        };
-
-        combo_tvp {
-            timeout-ms = <100>;
-            key-positions = <11 12 13>;
-            bindings = <&tog TVP1>;
+            bindings = <&kp TAB>;
+            require-prior-idle-ms = <120>;
         };
     };
 
@@ -133,10 +128,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                  &kp Q                    &kp W            &kp E                             &kp R                   &kp T        &kp Y    &kp U                    &kp I              &kp O             &kp P
-                  &mt_left LEFT_COMMAND A  &mt_left LALT S  &mt_left LCTRL D                  &mt_shift_left LSHFT F  &kp G        &kp H    &mt_shift_right RSHFT J  &mt_right RCTRL K  &mt_right RALT L  &mt_right RGUI SEMICOLON
-&mt LCTRL ESCAPE  &kp Z                    &kp X            &kp C                             &kp V                   &kp B        &kp N    &kp M                    &kp COMMA          &kp DOT           &kp FSLH                  &lt 6 SQT
-                                                            &mt_thumb LEFT_COMMAND BACKSPACE  &lt NAV TAB             &kp SPACE    &kp RET  &lt SYM ESC              &kp BSPC
+                  &kp Q  &kp W  &kp E                             &kp R        &kp T                         &kp Y                        &kp U        &kp I                      &kp O    &kp P
+                  &kp A  &kp S  &kp D                             &kp F        &kp G                         &kp H                        &kp J        &kp K                      &kp L    &kp SEMICOLON
+&mt LCTRL ESCAPE  &kp Z  &kp X  &kp C                             &kp V        &kp B                         &kp N                        &kp M        &kp COMMA                  &kp DOT  &kp FSLH       &kp SQT
+                                &mt_thumb LEFT_COMMAND BACKSPACE  &lt NAV TAB  &mt_thumb LEFT_SHIFT SPACE    &mt_thumb RIGHT_SHIFT ENTER  &lt SYM ESC  &mt_thumb LEFT_ALT DELETE
             >;
         };
 
