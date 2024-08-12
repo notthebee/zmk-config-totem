@@ -39,6 +39,12 @@
             bindings = <&kp TAB>;
             require-prior-idle-ms = <120>;
         };
+
+        dash {
+            bindings = <&kp MINUS>;
+            key-positions = <19 31>;
+            timeout-ms = <70>;
+        };
     };
 
     behaviors {
