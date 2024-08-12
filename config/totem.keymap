@@ -83,8 +83,8 @@
 
             #binding-cells = <2>;
             quick-tap-ms = <220>;
-            flavor = "hold-preferred";
-            tapping-term-ms = <170>;
+            flavor = "balanced";
+            tapping-term-ms = <150>;
         };
 
         mt_shift_left: mt_shift_left {
