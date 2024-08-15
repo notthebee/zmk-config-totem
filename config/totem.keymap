@@ -55,7 +55,14 @@
 
         enter_combo {
             bindings = <&kp ENTER>;
-            key-positions = <18 19>;
+            key-positions = <13 12 11>;
+            timeout-ms = <70>;
+            require-prior-idle-ms = <100>;
+        };
+
+        enter_right_combo {
+            bindings = <&kp ENTER>;
+            key-positions = <16 18 17>;
             timeout-ms = <70>;
             require-prior-idle-ms = <100>;
         };
