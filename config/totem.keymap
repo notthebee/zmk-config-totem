@@ -52,6 +52,13 @@
             timeout-ms = <60>;
             require-prior-idle-ms = <100>;
         };
+
+        enter_combo {
+            bindings = <&kp ENTER>;
+            key-positions = <18 19>;
+            timeout-ms = <70>;
+            require-prior-idle-ms = <100>;
+        };
     };
 
     behaviors {
