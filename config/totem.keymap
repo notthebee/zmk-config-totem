@@ -70,7 +70,7 @@
         russian_letter_ {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <8 9>;
-            timeout-ms = <50>;
+            timeout-ms = <20>;
             require-prior-idle-ms = <100>;
         };
 
@@ -78,7 +78,7 @@
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <8 7>;
             require-prior-idle-ms = <100>;
-            timeout-ms = <50>;
+            timeout-ms = <20>;
         };
     };
 
