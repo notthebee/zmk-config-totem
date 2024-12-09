@@ -119,8 +119,8 @@
             #binding-cells = <2>;
             quick-tap-ms = <220>;
             flavor = "balanced";
-            tapping-term-ms = <150>;
-            require-prior-idle-ms = <50>;
+            tapping-term-ms = <100>;
+            require-prior-idle-ms = <0>;
         };
 
         mt_shift_left: mt_shift_left {
