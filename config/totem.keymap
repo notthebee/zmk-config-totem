@@ -181,10 +181,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                               &kp Q  &kp W  &kp E                             &kp R        &kp T        &kp Y                               &kp U        &kp I                      &kp O    &kp P
-                               &kp A  &kp S  &kp D                             &kp F        &kp G        &kp H                               &kp J        &kp K                      &kp L    &kp SEMICOLON
-&mt_thumb LEFT_CONTROL ESCAPE  &kp Z  &kp X  &kp C                             &kp V        &kp B        &kp N                               &kp M        &kp COMMA                  &kp DOT  &kp FSLH       &kp SQT
-                                             &mt_thumb LEFT_COMMAND BACKSPACE  &lt NAV TAB  &kp SPACE    &hold_sticky LEFT_SHIFT LEFT_SHIFT  &lt SYM TAB  &mt_thumb LEFT_ALT DELETE
+                               &kp Q            &kp W  &kp E            &kp R                    &kp T        &kp Y    &kp U                     &kp I             &kp O    &kp P
+                               &mt_left LALT A  &kp S  &mt_left LGUI D  &mt_shift_left LSHIFT F  &kp G        &kp H    &mt_shift_right LSHIFT J  &mt_right LGUI K  &kp L    &mt_right RALT SEMICOLON
+&mt_thumb LEFT_CONTROL ESCAPE  &kp Z            &kp X  &kp C            &kp V                    &kp B        &kp N    &kp M                     &kp COMMA         &kp DOT  &kp FSLH                  &kp SQT
+                                                       &kp BACKSPACE    &lt NAV TAB              &kp SPACE    &kp TAB  &lt SYM TAB               &kp DELETE
             >;
         };
 
