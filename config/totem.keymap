@@ -33,24 +33,10 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_esc {
-            timeout-ms = <60>;
-            key-positions = <0 1>;
-            bindings = <&kp TAB>;
-            require-prior-idle-ms = <120>;
-        };
-
         dash {
             bindings = <&kp MINUS>;
             key-positions = <19 31>;
             timeout-ms = <70>;
-        };
-
-        tilde_combo {
-            bindings = <&kp TILDE>;
-            key-positions = <0 20>;
-            timeout-ms = <60>;
-            require-prior-idle-ms = <100>;
         };
 
         enter_combo {
@@ -338,6 +324,15 @@
         &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &kp UP_ARROW  &kp RIGHT
         &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &kp DOWN      &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LEFT  &trans        &trans     &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+        };
+
+        layer_7 {
+            bindings = <
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
