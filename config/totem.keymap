@@ -66,6 +66,12 @@
             require-prior-idle-ms = <100>;
             timeout-ms = <20>;
         };
+
+        tab_gaming {
+            bindings = <&kp TAB>;
+            key-positions = <20 10>;
+            layers = <4>;
+        };
     };
 
     behaviors {
@@ -272,7 +278,7 @@
 
         gaming {
             bindings = <
-           &kp Q   &kp W   &kp E   &kp R     &kp T        &trans  &trans  &trans  &trans  &trans
+           &kp Q   &kp W   &kp E   &kp R     &kp P        &trans  &trans  &trans  &trans  &trans
            &kp N1  &kp S   &kp D   &kp F     &kp N6       &trans  &trans  &trans  &trans  &trans
 &kp LCTRL  &kp N2  &kp N3  &kp N4  &kp N5    &kp B        &trans  &trans  &trans  &trans  &trans  &trans
                            &kp N7  &kp LALT  &kp SPACE    &trans  &trans  &tog 4
