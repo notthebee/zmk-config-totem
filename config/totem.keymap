@@ -72,6 +72,12 @@
             key-positions = <20 10>;
             layers = <4>;
         };
+
+        tilde {
+            bindings = <&kp TILDE>;
+            key-positions = <0 20>;
+            layers = <0>;
+        };
     };
 
     behaviors {
